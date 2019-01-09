@@ -193,11 +193,38 @@ nav li a:hover {
 /* Smartphone */
 @media only screen and (max-width: 480px) {
 
+  .resume-title {
+    font-size: 0.9rem;
+  }
+
+  #resume-content h3 {
+    font-size: 0.8rem;
+  }
+
+  .date-range {
+    font-size: 0.7rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2,
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  p, li{
+    font-size: 0.9rem;
+  }
 }
 
 /* Portrait Tablet */
 @media only screen and (max-width: 768px) {
-
+  .resume-header {
+    margin-top: 100px;
+    padding-bottom: 0;
+  }
 }
 
 /* Landscape Tablet */
