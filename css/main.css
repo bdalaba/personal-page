@@ -193,6 +193,31 @@ nav li a:hover {
 /* Smartphone */
 @media only screen and (max-width: 480px) {
 
+  .content {
+    margin-top: 100px;
+  }
+
+  .content-title {
+    font-size: 3rem;
+  }
+
+  .content-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .content-text {
+    font-size: 1.1rem;
+  }
+
+  nav li {
+    font-size: 0.8rem;
+  }
+
+  .resume-header {
+    margin-top: 100px;
+    padding-bottom: 0;
+  }
+
   .resume-title {
     font-size: 0.9rem;
   }
@@ -220,14 +245,11 @@ nav li a:hover {
 }
 
 /* Portrait Tablet */
-@media only screen and (max-width: 768px) {
-  .resume-header {
-    margin-top: 100px;
-    padding-bottom: 0;
-  }
+@media only screen and (min-width: 768px) {
+
 }
 
 /* Landscape Tablet */
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) {
 
 }
