@@ -74,7 +74,6 @@ nav li:first-child {
 }
 
 nav li a {
-  text-decoration: none;
   color: #555;
 }
 
@@ -84,29 +83,7 @@ nav li a:hover {
 
 
 /*Classes and IDs*/
-#logo {
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  width: 75px;
-  height: auto;
-}
-
-#download {
-  position: absolute;
-  top: 110px;
-  right: 30px;
-  width: 100px;
-  height: auto;
-  color: #555;
-}
-
-#download:hover {
-  color: #26ace2;
-}
-
-
-.content {
+#home-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -114,7 +91,7 @@ nav li a:hover {
   width: 100%;
 }
 
-.content-title {
+#home-content-title {
   margin-bottom: 0;
   color: #000;
   font-size: 4rem;
@@ -123,14 +100,14 @@ nav li a:hover {
   line-height: 1;
 }
 
-.content-subtitle {
+#home-content-subtitle {
   margin: 0;
   letter-spacing: .025em;
   font-size: 1.4rem;
   font-weight: 400;
 }
 
-.content-text {
+#home-content-text {
   font-size: 1.2rem;
   margin: .25rem 0;
   font-weight: 400;
@@ -139,7 +116,7 @@ nav li a:hover {
   padding: 1rem 0;
 }
 
-.resume-header {
+#resume-header {
   max-width: 820px;
   margin: 0 auto;
   width: 90%;
@@ -147,7 +124,7 @@ nav li a:hover {
   padding: 1em 0 1.5em;
 }
 
-.resume-title {
+#resume-title {
   width: 100%;
   font-size: 1rem;
   letter-spacing: -0.03em;
@@ -171,6 +148,26 @@ nav li a:hover {
   color: #555;
 }
 
+#download {
+  position: absolute;
+  top: 110px;
+  right: 30px;
+  width: 100px;
+  height: auto;
+  color: #555;
+}
+
+#download:hover {
+  color: #26ace2;
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 75px;
+  height: auto;
+}
 
 .date-range {
   font-family: 'Lato', sans-serif;
@@ -193,41 +190,9 @@ nav li a:hover {
 /* Smartphone */
 @media only screen and (max-width: 480px) {
 
-  .content {
-    margin-top: 100px;
-  }
-
-  .content-title {
-    font-size: 3rem;
-  }
-
-  .content-subtitle {
-    font-size: 1.2rem;
-  }
-
-  .content-text {
-    font-size: 1.1rem;
-  }
-
+  /*Tags*/
   nav li {
     font-size: 0.8rem;
-  }
-
-  .resume-header {
-    margin-top: 100px;
-    padding-bottom: 0;
-  }
-
-  .resume-title {
-    font-size: 0.9rem;
-  }
-
-  #resume-content h3 {
-    font-size: 0.8rem;
-  }
-
-  .date-range {
-    font-size: 0.7rem;
   }
 
   h1 {
@@ -242,14 +207,51 @@ nav li a:hover {
   p, li{
     font-size: 0.9rem;
   }
+
+  /*Classes and IDs*/
+  #home-content {
+    margin-top: 100px;
+  }
+
+  #home-content-title {
+    font-size: 3rem;
+  }
+
+  #home-content-subtitle {
+    font-size: 1.2rem;
+  }
+
+  #home-content-text {
+    font-size: 1.1rem;
+  }
+
+  #resume-header {
+    margin-top: 100px;
+    padding-bottom: 0;
+  }
+
+  #resume-title {
+    font-size: 0.9rem;
+  }
+  
+  #resume-content h3 {
+    font-size: 0.8rem;
+  }
+
+  .date-range {
+    font-size: 0.7rem;
+  }
+
 }
 
-/* Portrait Tablet */
+/* Commented out for later use
+===== Portrait Tablet
 @media only screen and (min-width: 768px) {
 
 }
 
-/* Landscape Tablet */
+===== Landscape Tablet
 @media only screen and (min-width: 1024px) {
 
 }
+*/
