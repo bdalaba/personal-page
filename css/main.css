@@ -162,7 +162,7 @@ nav li a:hover {
 }
 
 #source-header {
-  padding: 6em 0 1.5em;
+  padding: 1em 0 1.5em;
 }
 
 #gist94246542 {
@@ -246,6 +246,10 @@ nav li a:hover {
   
   #resume-content h3 {
     font-size: 0.8rem;
+  }
+  
+  #source-header {
+    padding: 6em 0 1.5em;
   }
 
   .date-range {
