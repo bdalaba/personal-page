@@ -161,6 +161,12 @@ nav li a:hover {
   color: #26ace2;
 }
 
+#gist94246542 {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+
 .logo {
   position: absolute;
   top: 30px;
