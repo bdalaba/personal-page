@@ -210,16 +210,16 @@ nav li a:hover {
   }
 
   h1 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   h2,
   h3 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   p, li{
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
 
   /*Classes and IDs*/
