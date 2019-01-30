@@ -201,6 +201,10 @@ nav li a:hover {
 @media only screen and (max-width: 480px) {
 
   /*Tags*/
+  body {
+    padding: 12vw 6vw;
+  }
+  
   nav li {
     font-size: 0.8rem;
   }
