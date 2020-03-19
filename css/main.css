@@ -34,17 +34,17 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Baloo 2', cursive;
   font-weight: bold;
   color: #26ace2;
 }
 
 p {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
 }
 
@@ -183,13 +183,13 @@ nav li a:hover {
 }
 
 .date-range {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 0.8rem;
   color: #777;
 }
 
 .helper-text {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Baloo 2', cursive;
   font-style: italic;
   font-weight: 400;
 }
