@@ -34,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Baloo 2', cursive;
+  font-family: 'Oswald', sans-serif;
   font-weight: bold;
   color: #26ace2;
 }
@@ -189,7 +189,7 @@ nav li a:hover {
 }
 
 .helper-text {
-  font-family: 'Baloo 2', cursive;
+  font-family: 'Oswald', sans-serif;
   font-style: italic;
   font-weight: 400;
 }
