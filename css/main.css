@@ -119,6 +119,10 @@ nav li a:hover {
   font-weight: 400;
 }
 
+.fab {
+  font-size: 1.5rem;
+}
+
 #resume-header {
   margin: 0 auto;
   width: 90%;
