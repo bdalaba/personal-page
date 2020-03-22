@@ -82,7 +82,11 @@ nav li a:hover {
   color: #26ace2;
 }
 
-
+.fix{
+    position:fixed;
+    bottom:0px;
+    left:50%;
+}
 
 
 /*Classes and IDs*/
