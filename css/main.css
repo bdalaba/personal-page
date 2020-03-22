@@ -20,6 +20,7 @@ html {
 }
 
 body {
+  background-color: #1c1c1c;
   flex-flow: column;
   align-items: center;
   justify-content: center;
