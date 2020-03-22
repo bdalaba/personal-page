@@ -84,7 +84,7 @@ nav li a:hover {
 
 .fix{
   position:fixed;
-  width: 50%;
+  width: 150px;
   height: auto;
   bottom:0px;
   left:50%;
