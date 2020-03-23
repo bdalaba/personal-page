@@ -42,6 +42,7 @@ h6 {
 
 p {
   font-family: 'Open Sans', sans-serif;
+  color: #eeeeee;
 }
 
 a {
@@ -83,14 +84,6 @@ nav li a:hover {
   color: #26ace2;
 }
 
-.fix{
-  position:fixed;
-  width: 150px;
-  height: auto;
-  bottom:0px;
-  right: 30px;
-}
-
 
 /*Classes and IDs*/
 #home-content {
@@ -130,6 +123,13 @@ nav li a:hover {
   font-size: 1.5rem;
 }
 
+.fix{
+  position:fixed;
+  width: 150px;
+  height: auto;
+  bottom:0px;
+  right: 30px;
+}
 
 
 .logo {
@@ -150,7 +150,7 @@ nav li a:hover {
   body {
     padding: 12vw 6vw;
   }
-  
+
   nav li {
     font-size: 0.7rem;
   }
