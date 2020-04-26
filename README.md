@@ -1,2 +1,2 @@
-# online-resume
-Online Personal Resume
+# Brendon Dalaba Developer Portfolio
+Online developer portfolio
